@@ -137,7 +137,7 @@ struct Matrix
             auto k = HashPair.first;
             auto v = HashPair.second;
 
-            return ShowValue(k,v);
+            return MatrixValue(k,v);
         }
 
     private:
