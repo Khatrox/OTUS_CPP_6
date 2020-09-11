@@ -18,8 +18,6 @@ set_target_properties(matrix
         CXX_STANDARD_REQUIRED ON
         )
 
-target_include_directories(matrix PRIVATE ${CMAKE_SOURCE_DIR}/src)
-
 install(TARGETS matrix RUNTIME DESTINATION bin)
 set(CPACK_GENERATOR DEB)
 
